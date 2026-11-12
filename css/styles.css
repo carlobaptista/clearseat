@@ -355,6 +355,9 @@ h1, h2, h3 { text-wrap: balance; }
   .seat-label, .seat-empty-label, .table-word, .seat-note { font-size: 17.5px; }
 }
 
+/* Large desktop monitors: scale everything up a step */
+@media (min-width: 100rem) { html { font-size: 112.5%; } }
+
 /* Footer labels */
 .site-footer .footer-base { max-width: none; }
 .footer-label { font-family: var(--body); font-size: 0.9375rem; font-weight: 600; letter-spacing: 0; line-height: 1.4; margin-bottom: 0.75rem; }
