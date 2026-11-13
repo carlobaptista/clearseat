@@ -1,9 +1,9 @@
 /* ClearSeat - site styles. Two typefaces, one green, one idea: the empty seat. */
 
 @font-face {
-  font-family: "Fraunces";
-  src: url("../fonts/fraunces.woff2") format("woff2");
-  font-weight: 100 900;
+  font-family: "Newsreader";
+  src: url("../fonts/newsreader.woff2") format("woff2");
+  font-weight: 200 800;
   font-style: normal;
   font-display: swap;
 }
@@ -25,7 +25,7 @@
   --rule: #c9c7b6;
   --white: #fbfaf5;
   --tint: #dde4d5;
-  --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --display: "Newsreader", "Iowan Old Style", Georgia, serif;
   --body: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
   --wrap: 72rem;
   --gutter: clamp(1.25rem, 5vw, 3rem);
